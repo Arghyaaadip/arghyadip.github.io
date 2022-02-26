@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale
+    = 1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+     <section class="header">
+        <nav>
+            <div class="copyright"><h4><p>All copyrights<i class="fa fa-copyright"></i> reserved</p></h4></div>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box" >
+            <h1><u>HOME</u></h1>
+            <p>Hey there!Arghyadip this side, currently pursuing CS gundergard and also a AI <br>and Data Science enthusiast. That's all 
+                for now. Thank you for checking it out. You can <br>reach mail me directly just by clicking the link below.
+            </p>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDxrFqlHfRQQsSJCMDtgkxTgZmXrxdLDHsHTHTBgWrBvLwtBFrgMPvbSfLKMkXFVMwpk" 
+            target="_blank" class="hero-btn">EMAIL ME</a>
+        </div>
+        
+         <div class="wrapper">
+         <h2>Connect with me</h2>
+         <div class="symbols">
+             <ul>
+                 <li><i class="fa fa-facebook"></i></a></li>
+                 <li><a href="https://instagram.com/arghyya.m?utm_medium=copy_link" target="_blank"><i class="fa fa-instagram" ></i></a></li>
+                 <li><a href="https://github.com/Arghyaaadip" target="_blank"><i class="fa fa-github" ></i></a></li>
+                 <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDxrFqlHfRQQsSJCMDtgkxTgZmXrxdLDHsHTHTBgWrBvLwtBFrgMPvbSfLKMkXFVMwpk" 
+                    target="_blank"><i class="fa fa-envelope"></i></a></li>
+             </ul>
+         </div>
+
+         </div>
+    
+     </section>
+     
+<!-----About---->
+
+
+<!---Footer-->
+<!--
+<section class="footer">
+    <h4>Contact</h4>
+
+    <a href="mailto:am5909524@gmail.com?subject=Inquiry from website">Email Me</a> -->
+    <!--<a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDxrFqlHfRQQsSJCMDtgkxTgZmXrxdLDHsHTHTBgWrBvLwtBFrgMPvbSfLKMkXFVMwpk" 
+    target="_blank">Email Me</a>-->
+    
+    <!--<div class="icons">
+        
+            <i class="fa fa-instagram"> </i>
+            <i class="fa fa-envelope"></i>
+            <i class="fa fa-github"></i>
+            
+        
+    </div>   --->
+    <!--<h6><p>All copyrights<i class="fa fa-copyright"></i> reserved</p></h6>
+</section>-->
+
+
+
+
+<!--------- Javascript for Toggle Menu------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
